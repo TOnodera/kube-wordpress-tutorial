@@ -48,7 +48,7 @@ spec:
       - image: wordpress:4.8-apache
         name: wordpress
         env:
-        - name: WORDPRESS_DB_HOST #mysqlのServieの名前を環境変数で設定してあげる
+        - name: WORDPRESS_DB_HOST #mysqlのServieの名前を環境変数で設定してあげている
           value: wordpress-mysql
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
