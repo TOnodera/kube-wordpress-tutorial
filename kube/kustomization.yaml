@@ -1,0 +1,7 @@
+secretGenerator:
+  - name: mysql-pass
+    literals:
+    - password=password #ホントは公開しちゃダメなファイルなんだろうけど、ローカルでした動かさないのでOK
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
